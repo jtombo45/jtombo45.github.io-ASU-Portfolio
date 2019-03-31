@@ -1,0 +1,1085 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(sunset3.jpg) no-repeat;
+	background-size: cover;
+}
+/*Styling the Nav Menu*/
+#nav a{
+
+	padding-top: 17px;
+	display: inline-block;
+
+	font-size: 10px;
+	letter-spacing: 1px; 
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-weight: normal;
+
+	color: white;
+	text-decoration: none;
+	transition: all ease-in-out 250ms;
+}
+#nav a:hover{
+	color: white;
+	text-decoration: none;
+	transition: all ease-in-out 250ms;
+}
+
+/*Styling Judicael Tombo*/
+#nav .name{
+	padding-left: 5%;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+/*Styling Resume*/
+#nav .resume{
+	padding-left: 10%;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+/*Styling Projects*/
+#nav .projects{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+/*Styling Cotnact*/
+#nav .contact{
+	padding-right: 5%;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+
+/*Syling Portfolio box*/
+.box-portfolio{
+	width: 325px;
+	/*background: rgba(0, 0, 0, 0.4);*/
+	background: rgba(0,0,0,0.7);
+
+	/*Spacing within the box and its contents*/
+	padding-left: 10px;
+	padding-right: 10px;
+
+	text-align: center;
+	color: white;
+	font-family: 'Roboto',sans-serif;
+
+	/*The height of the top part of box to the top part of the site*/
+	margin: auto;
+	margin-top: 23%;
+	
+	/*Corning the the edge/border of the box*/
+	border-radius: 5px;
+}
+/*Styling Portfolio Picture*/
+.box-img-profile{
+
+	border-radius: 50%;
+	width: 95px;
+	height: 95px;
+
+	/*Positiong the portfolio picture*/
+	margin-top: -20%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	font-family: 'Roboto Condensed',sans-serif;
+}
+/*Syling Portfolio H1*/
+.box-portfolio h1{
+	margin-top: 15px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	font-size: 20px;
+	letter-spacing: 1px; 
+	text-transform: uppercase;
+	font-weight: normal;
+
+}
+
+.box-portfolio h2{
+	margin-top: 1%;
+	padding: 0px;
+
+	font-size: 16px;
+	letter-spacing: 2px; 
+	font-weight: lighter;
+}
+
+.box-portfolio p{
+	font-size: 13px;
+	letter-spacing: 1px; 
+	font-weight: normal;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.box-portfolio ul{
+	margin: 0;
+	padding: 0;
+}
+.box-portfolio li{
+	display: inline-block;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 15px; 
+	margin-right: 15px;
+	list-style: none;
+}
+.box-portfolio li a{
+	color: white;
+	text-decoration: none;
+	/*Size of Social Media Icon*/
+	font-size: 35px;
+	transition: all ease-in-out 250ms;
+}
+.box-portfolio li a:hover{
+	color: #b9b9b9;
+}
+/*..........................................................................*/
+.down{
+	margin: auto;
+}
+.down a{
+
+	padding-left: 45%;
+	font-size: 30px;
+	color: white;
+}
+.down a:hover{
+	
+	color: white;
+	text-decoration: none;
+	transition: all ease-in-out 250ms;
+	text-decoration: none;
+}
+/*......................................................................................................................*/
+/*Styling the background*/
+#box-background{
+	width: 325px;
+	/*background: rgba(0, 0, 0, 0.4);*/
+	background: rgba(0,0,0,0.7);
+
+	/*Spacing within the box and its contents*/
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 5px;
+
+	text-align: left;
+	color: white;
+	font-family: 'Roboto',sans-serif;
+
+	/*The height of the top part of box to the top part of the site*/
+	margin: auto;
+	margin-top: 10%;
+	
+	/*Corning the the edge/border of the box*/
+	border-radius: 5px;
+}
+/*Stlying the H*/
+#box-background h1{
+	font-size: 30px;
+}
+/*Stlying the P*/
+#box-background p{
+	font-size: 15px;
+}
+/*Styling the Link*/
+#box-background a{
+	font-family: 'Roboto',sans-serif;
+
+	/*Positioning of the bottom*/
+	margin-left: 37px;
+	margin-bottom: 10px;
+	
+}
+#box-background .linkButton{
+	color: #1f8a80;
+	font-family: "proxima nova";
+	font-weight: 100;
+	font-size: 10px;
+	text-align: center;
+
+	border: solid 2px #1f8a80;
+	border-radius: 10px;
+
+	/*spacing within the button*/
+	padding: 7px 7px;
+	transition-duration: 200ms;
+}
+#box-background .linkButton:hover{
+	background-color: #1f8a80;
+	color: white;
+}
+/*...............................................................................................................................*/
+.box-skills{
+
+	border-radius: 5px;
+	width: 325px;
+
+	/*background: rgba(0, 0, 0, 0.4);*/
+	background: rgba(0,0,0,0.7);
+
+	padding-top: 15px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+
+	color: white;
+	font-family: 'Roboto',sans-serif;
+}
+
+.box-skills h1{
+	font-size: 25px;
+	letter-spacing: 2px; 
+	font-weight: 100;
+	font-weight: 300;
+}
+.box-skills li{
+	line-height: 1.5em;
+	padding: 0;
+	font-weight: 300;
+
+}
+.box-skills ul{
+	/*list-style-type: none;*/
+}
+
+.box-skills table{
+	margin: auto;
+}
+.box-skills th{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 13px;
+	padding-left: 13px;
+	
+}
+.box-skills td{
+	font-size: 10px;
+	text-align: left;
+	padding-top: 13px;
+	padding-left: 13px;
+	padding-right: 13px;
+	color: grey;
+}
+/*.............................................................................................................................*/
+#box-projects1{
+	width: 275px;
+	/*background: rgba(0, 0, 0, 0.4);*/
+	background: rgba(0,0,0,0.7);
+
+	/*Spacing within the box and its contents*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	text-align: center;
+	color: white;
+	font-family: 'Roboto',sans-serif;
+
+	/*The height of the top part of box to the top part of the site*/
+	margin: auto;
+	margin-top: 10%;
+	
+	/*Corning the the edge/border of the box*/
+	border-radius: 15px;
+}
+#box-projects1 img{
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+}
+#box-projects1 h1{
+	font-size: 25px;
+}
+/*........................................................................................................................*/
+.box-projects{
+	width: 275px;
+	/*background: rgba(0, 0, 0, 0.4);*/
+	background: rgba(0,0,0,0.7);
+
+	/*Spacing within the box and its contents*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	text-align: center;
+	color: white;
+	font-family: 'Roboto',sans-serif;
+
+	/*The height of the top part of box to the top part of the site*/
+	margin: auto;
+	margin-top: 10%;
+	
+	/*Corning the the edge/border of the box*/
+	border-radius: 15px;
+}
+.box-projects img{
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+}
+.box-projects h1{
+	font-size: 25px;
+}
+/*.................................................................................................................................*/
+.box-experience{
+	width: 325px;
+	/*background: rgba(0, 0, 0, 0.4);*/
+	background: rgba(0,0,0,0.7);
+
+	/*Spacing within the box and its contents*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	text-align: center;
+	color: white;
+	font-family: 'Roboto',sans-serif;
+
+	/*The height of the top part of box to the top part of the site*/
+	margin: auto;
+	margin-top: 15%;
+	
+	/*Corning the the edge/border of the box*/
+	border-radius: 10px;
+}
+.box-experience h1{
+	text-align: left;
+	font-size: 25px;
+}
+.box-experience .title{
+	text-align: left;
+	font-size: 20px;
+	font-weight: 100;
+	padding-left: 0px;
+}
+.box-experience .date{
+	text-align: left;
+	color: white;
+	font-size: 10px;
+}
+
+.box-experience .org{
+	text-align: left;
+	color: grey;
+	font-size: 15px;
+}
+/*.........................................................................................*/
+.up{
+	padding-top: 3.5%;
+	text-align: center;
+	margin: auto;
+	font-size: 1em;
+	color: black;
+}
+.up a{
+	color: black;
+}
+.up a:hover{
+	color: white;
+}
+/*..........................................................................................*/
+
+.social .fa{
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.social ul{
+	margin: auto;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.social li{
+	display: inline-block;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-left: 5%; 
+	margin-right: 5%;
+	list-style: none;
+}
+
+.social li a{
+	color: white;
+	text-decoration: none;
+	/*Size of Social Media Icon*/
+	font-size: 30px;
+	transition: all ease-in-out 250ms;
+}
+
+.social li a:hover{
+	color: #b9b9b9;
+}
+.social .fa{
+	font-size: 0.85em;
+}
+.social .far{
+	font-size: 0.85em;
+}
+.social .fab{
+	font-size: 0.85em;
+}
+/*.........................................................................................*/
+footer{
+	text-align: center;
+	color: white;
+	display: inline-block;
+	font-size: 0.85em;
+	padding-top: 3.5%;
+	padding-bottom: 15%;
+}
+/*.........................................................................................................................................*/
+/*FOR SMALL DEVICES*/
+@media only screen and (min-width: 360px) {
+
+	/*Styling Resume*/
+	#nav .resume{
+		padding-left: 7%;
+	}
+}
+/*.........................................................................................................................................*/
+/*FOR TABLETS*/
+@media only screen and (min-width: 768px) {
+	/*Styling the Nav Menu*/
+	#nav a{
+
+		font-size: 24px;
+	}
+
+	/*Styling Judicael Tombo*/
+	#nav .name{
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 20px;
+	}
+
+	/*Styling Resume*/
+	#nav .resume{
+		padding-left: 27.5%;
+		font-size: 20px;
+	}
+
+	/*Styling Projects*/
+	#nav .projects{
+		padding-right: 2%;
+		font-size: 20px;
+	}
+
+	/*Styling Cotnact*/
+	#nav .contact{
+		padding-right: 2%;
+		font-size: 20px;
+	}
+
+
+	/*Syling Portfolio box*/
+	.box-portfolio{
+		width: 550px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+
+		/*Spacing within the box and its contents*/
+		padding: 40px;
+
+		text-align: center;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+
+		/*The height of the top part of box to the top part of the site*/
+		margin: auto;
+		margin-top: 18%;
+		
+		/*Corning the the edge/border of the box*/
+		border-radius: 25px;
+	}
+	/*Styling Portfolio Picture*/
+	.box-img-profile{
+
+		border-radius: 50%;
+
+		border-radius: 50%;
+		width: 190px;
+		height: 190px;
+
+		/*Positiong the portfolio picture*/
+		margin-top: -20%;
+		padding-top: 0px;
+		padding-bottom: 0px;
+
+		font-family: 'Roboto Condensed',sans-serif;
+	}
+	/*Syling Portfolio H1*/
+	.box-portfolio h1{
+		margin-top: 15px;
+
+		padding-top: 0px;
+		padding-bottom: 0px;
+
+		font-size: 40px;
+		letter-spacing: 1px; 
+		text-transform: uppercase;
+		font-weight: normal;
+
+	}
+
+	.box-portfolio h2{
+		margin-top: 1%;
+		padding: 0px;
+
+		font-size: 20px;
+		letter-spacing: 2px; 
+		font-weight: lighter;
+	}
+
+	.box-portfolio p{
+		font-size: 19px;
+		letter-spacing: 1px; 
+		font-weight: normal;
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	.box-portfolio ul{
+		margin: 0;
+		padding: 0;
+	}
+	.box-portfolio li{
+		display: inline-block;
+		margin-top: 6px;
+		margin-bottom: 6px;
+		margin-left: 40px; 
+		margin-right: 40px;
+		list-style: none;
+	}
+	.box-portfolio li a{
+		color: white;
+		text-decoration: none;
+		/*Size of Social Media Icon*/
+		font-size: 60px;
+		transition: all ease-in-out 250ms;
+	}
+	.box-portfolio li a:hover{
+		color: #b9b9b9;
+	}
+	/*........................................................................................................*/
+	.down{
+		display: none;
+
+	}
+	/*......................................................................................................................*/
+	#box-projects1{
+		width: 550px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+		padding: 40px;
+		text-align: center;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+		border-radius: 25px;
+		}
+	#box-projects1 img{
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+		}
+	#box-projects1 h1{
+			font-size: 40px;
+			letter-spacing: 4px; 
+			font-weight: 100;
+	}
+	/*......................................................................................................................*/
+	/*Styling the background*/
+	#box-background{
+		width: 650px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+
+		/*Spacing within the box and its contents*/
+		padding: 40px;
+
+		text-align: left;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+
+		/*The height of the top part of box to the top part of the site*/
+		margin: auto;
+		margin-top: 5%;
+		
+		/*Corning the the edge/border of the box*/
+		border-radius: 25px;
+	}
+	/*Stlying the H*/
+	#box-background h1{
+		font-size: 3rem;
+		letter-spacing: 4px; 
+		font-weight: 100;
+	}
+	/*Stlying the P*/
+	#box-background p{
+		text-align: justify;
+		font-weight: 100;
+		font-size: 19px;
+		line-height: 1.5em;
+	}
+	/*Styling the Link*/
+	#box-background a{
+		font-family: 'Roboto',sans-serif;
+
+		/*Positioning of the bottom*/
+		margin-left: 50px;
+		margin-bottom: 10px;
+		
+	}
+	#box-background .linkButton{
+		color: #1f8a80;
+		font-family: "proxima nova";
+		font-weight: 100;
+		font-size: 20px;
+		text-align: center;
+
+		border: solid 2px #1f8a80;
+		border-radius: 10px;
+
+		/*spacing within the button*/
+		padding: 7px 14px;
+	}
+
+	/*...............................................................................................................................*/
+	.box-skills{
+
+		border-radius: 25px;
+		width: 550px;
+		margin-top: 5%;
+		padding: 40px;
+	}
+
+	.box-skills h1{
+		font-size: 3rem;
+		letter-spacing: 4px; 
+		font-weight: 100;
+	}
+	.box-skills li{
+		line-height: 1.5em;
+		padding: 0;
+		font-weight: 300;
+
+	}
+
+	.box-skills th{
+		font-size: 1.25rem;
+		text-align: left;
+		padding: 23px;
+		
+	}
+	.box-skills td{
+		font-size: 1rem;
+		text-align: left;
+		padding: 23px;
+		color: grey;
+	}
+	/*.............................................................................................................................*/
+	.box-projects{
+		width: 550px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+		padding: 40px;
+		text-align: center;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+		border-radius: 25px;
+		}
+		.box-projects img{
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+		}
+		.box-projects h1{
+			font-size: 40px;
+			letter-spacing: 4px; 
+			font-weight: 100;
+	}
+	/*.................................................................................................................................*/
+	.box-experience{
+		width: 85%;
+		border-radius: 25px;
+		
+		padding: 40px;
+		text-align: left;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Roboto',sans-ser
+	}
+	.box-experience h1{
+		text-align: left;
+		font-size: 2.5rem;
+	}
+	.box-experience .title{
+		text-align: left;
+		font-size: 30px;
+		font-weight: 100;
+		padding-left: 0px;
+	}
+	.box-experience .date{
+		float: right;
+		color: #DDDDDD;
+		font-size: 1rem;
+	}
+
+	.box-experience .org{
+		color: grey;
+		font-size: 1.5rem;
+	}
+
+	.up{
+		font-size: 20px;
+	}
+
+	.social li a{
+		font-size: 60px;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+
+	footer{
+		font-size: 20px;
+		padding-bottom: 5%;
+	}
+} 
+
+/*.........................................................................................................................................*/
+/*For DESKTOP*/
+@media only screen and (min-width: 900px) {
+	
+	/*Styling Judicael Tombo*/
+	#nav .name{
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 20px;
+	}
+
+	/*Styling Resume*/
+	#nav .resume{
+		padding-left: 34%;
+		padding-right: 4%;
+		font-size: 20px;
+	}
+
+	/*Styling Projects*/
+	#nav .projects{
+		padding-right: 4%;
+		font-size: 20px;
+	}
+
+	/*Styling Cotnact*/
+	#nav .contact{
+		padding-right: 7%;
+		font-size: 20px;
+	}
+
+
+	/*Syling Portfolio box*/
+	.box-portfolio{
+		width: 550px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+
+		/*Spacing within the box and its contents*/
+		padding: 40px;
+
+		text-align: center;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+
+		/*The height of the top part of box to the top part of the site*/
+		margin: auto;
+		margin-top: 10%;
+		
+		/*Corning the the edge/border of the box*/
+		border-radius: 25px;
+	}
+	/*Styling Portfolio Picture*/
+	.box-img-profile{
+
+		border-radius: 50%;
+
+		border-radius: 50%;
+		width: 190px;
+		height: 190px;
+
+		/*Positiong the portfolio picture*/
+		margin-top: -20%;
+		padding-top: 0px;
+		padding-bottom: 0px;
+
+		font-family: 'Roboto Condensed',sans-serif;
+	}
+	/*Syling Portfolio H1*/
+	.box-portfolio h1{
+		margin-top: 15px;
+
+		padding-top: 0px;
+		padding-bottom: 0px;
+
+		font-size: 40px;
+		letter-spacing: 1px; 
+		text-transform: uppercase;
+		font-weight: normal;
+
+	}
+
+	.box-portfolio h2{
+		margin-top: 1%;
+		padding: 0px;
+
+		font-size: 20px;
+		letter-spacing: 2px; 
+		font-weight: lighter;
+	}
+
+	.box-portfolio p{
+		font-size: 19px;
+		letter-spacing: 1px; 
+		font-weight: normal;
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	.box-portfolio ul{
+		margin: 0;
+		padding: 0;
+	}
+	.box-portfolio li{
+		display: inline-block;
+		margin-top: 6px;
+		margin-bottom: 6px;
+		margin-left: 40px; 
+		margin-right: 40px;
+		list-style: none;
+	}
+	.box-portfolio li a{
+		color: white;
+		text-decoration: none;
+		/*Size of Social Media Icon*/
+		font-size: 60px;
+		transition: all ease-in-out 250ms;
+	}
+	.box-portfolio li a:hover{
+		color: #b9b9b9;
+	}
+	/*........................................................................................................*/
+	.down{
+		display: none;
+
+	}
+	/*......................................................................................................................*/
+	#box-projects1{
+		width: 550px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+		padding: 40px;
+		text-align: center;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+		border-radius: 25px;
+		}
+	#box-projects1 img{
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+		}
+	#box-projects1 h1{
+			font-size: 40px;
+			letter-spacing: 4px; 
+			font-weight: 100;
+	}
+	/*......................................................................................................................*/
+	/*Styling the background*/
+	#box-background{
+		width: 650px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+
+		/*Spacing within the box and its contents*/
+		padding: 40px;
+
+		text-align: left;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+
+		/*The height of the top part of box to the top part of the site*/
+		margin: auto;
+		margin-top: 5%;
+		
+		/*Corning the the edge/border of the box*/
+		border-radius: 25px;
+	}
+	/*Stlying the H*/
+	#box-background h1{
+		font-size: 3rem;
+		letter-spacing: 4px; 
+		font-weight: 100;
+	}
+	/*Stlying the P*/
+	#box-background p{
+		text-align: justify;
+		font-weight: 100;
+		font-size: 19px;
+		line-height: 1.5em;
+	}
+	/*Styling the Link*/
+	#box-background a{
+		font-family: 'Roboto',sans-serif;
+
+		/*Positioning of the bottom*/
+		margin-left: 50px;
+		margin-bottom: 10px;
+		
+	}
+	#box-background .linkButton{
+		color: #1f8a80;
+		font-family: "proxima nova";
+		font-weight: 100;
+		font-size: 20px;
+		text-align: center;
+
+		border: solid 2px #1f8a80;
+		border-radius: 10px;
+
+		/*spacing within the button*/
+		padding: 7px 14px;
+		
+	}
+
+	/*...............................................................................................................................*/
+	.box-skills{
+
+		border-radius: 25px;
+		width: 550px;
+		margin-top: 5%;
+		padding: 40px;
+	}
+
+	.box-skills h1{
+		font-size: 3rem;
+		letter-spacing: 4px; 
+		font-weight: 100;
+	}
+	.box-skills li{
+		line-height: 1.5em;
+		padding: 0;
+		font-weight: 300;
+
+	}
+
+	.box-skills th{
+		font-size: 1.25rem;
+		text-align: left;
+		padding: 23px;
+		
+	}
+	.box-skills td{
+		font-size: 1rem;
+		text-align: left;
+		padding: 23px;
+		color: grey;
+	}
+	/*.............................................................................................................................*/
+	.box-projects{
+		width: 550px;
+		/*background: rgba(0, 0, 0, 0.4);*/
+		background: rgba(0,0,0,0.7);
+		padding: 40px;
+		text-align: center;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Roboto',sans-serif;
+		border-radius: 25px;
+		}
+		.box-projects img{
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+		}
+		.box-projects h1{
+			font-size: 40px;
+			letter-spacing: 4px; 
+			font-weight: 100;
+	}
+	/*.................................................................................................................................*/
+	.box-experience{
+		width: 950px;
+		border-radius: 25px;
+		
+		padding: 40px;
+		text-align: left;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Roboto',sans-ser
+	}
+	.box-experience h1{
+		text-align: left;
+		font-size: 2.5rem;
+	}
+	.box-experience .title{
+		text-align: left;
+		font-size: 30px;
+		font-weight: 100;
+		padding-left: 0px;
+	}
+	.box-experience .date{
+		float: right;
+		color: #DDDDDD;
+		font-size: 1rem;
+	}
+
+	.box-experience .org{
+		color: grey;
+		font-size: 1.5rem;
+	}
+
+	.up{
+		font-size: 20px;
+	}
+
+	.social li a{
+		font-size: 60px;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+
+	footer{
+		font-size: 20px;
+		padding-bottom: 5%;
+	}
+} 
+
+/*........................................................................................................................................*/
