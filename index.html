@@ -15,6 +15,8 @@
 	<script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
 	<!-- Linking to Style Sheet-->
 	<link rel ="stylesheet" href="style.css">
+	<!-- jquery -->
+        <script src="jquery-2.1.4.js"></script>
 	<!--Bootsrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!--Title-->
@@ -205,6 +207,15 @@
 		<i class="fas fa-copyright"></i>
 		<span>2019 - JUDICAEL TOMBO</span>
 	</footer>
+	
+	<div class="loader-wrapper">
+                <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <script>
+                $(window).on("load",function(){
+                    $(".loader-wrapper").fadeOut("slow");
+                });
+        </script>
 
 </body>
 
